@@ -9,8 +9,9 @@
 #include <dt-bindings/zmk/keys.h>
 
 #define DEFAULT  0
-#define NUM_MODS 1
-#define BT_CTRL  2
+#define LOWER    1
+#define RAISE    2
+#define BT_CTRL  3
 
 &led_strip { chain-length = <5>; };
 
