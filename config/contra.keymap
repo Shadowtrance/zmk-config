@@ -12,6 +12,10 @@
 #define NUM_MODS 1
 #define BT_CTRL  2
 
+&led_strip {
+    chain-length = <5>;
+};
+
 / {
     keymap {
         compatible = "zmk,keymap";
