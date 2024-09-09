@@ -13,8 +13,6 @@
 #define RAISE    2
 #define BT_CTRL  3
 
-&led_strip { chain-length = <5>; };
-
 / {
     keymap {
         compatible = "zmk,keymap";
